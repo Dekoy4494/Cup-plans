@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fdde7e;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 56px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 50px;
+    font-family: "Lato";
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Lato";
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.coffee-variant{
+    min-width: 360px;
+    background-color: white;
+    height: 440px;
+    padding: 40px 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.v2{
+    height: 500px;
+}
+
+.coffee-variant span{
+    display: block;
+    color: #02995b;
+    
+}
